@@ -1,14 +1,25 @@
 <img class="main-picture"src="assets\angrywolf.jpg">
 
-<div class="main-text"> Angry wolf
+<div class="peatekst"> Angry wolf
 </div>
 
-<div>Kursused</div>
-<div>Töö</div>
-<div>Hobid</div>
+<div class="rectangle"></div>
+<br>
 
-<app-courses></app-courses>
-<app-courses></app-courses>
-<app-courses></app-courses>
+<div class="main-links">
+	<div routerLink="kursused">
+    Kursused
+		<img src="assets\coursespic.jpg">
+	</div>
+	<div routerLink="work">
+		Töö
+	<img src="assets\workpic1.jpg">
+	</div>
+	<div routerLink="hobid">
+		Hobid
+	<img src="assets\hobbies2.jpg">
+</div>
+</div>
+
 
 <router-outlet></router-outlet>
